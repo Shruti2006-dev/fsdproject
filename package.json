@@ -1,0 +1,22 @@
+{
+  "name": "digital-pet-care-manager",
+  "version": "1.0.0",
+  "description": "Digital Pet Care Manager - MERN Stack Project (MongoDB, Express, React, Node.js)",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed"
+  },
+  "keywords": [
+    "mern",
+    "mongodb",
+    "express",
+    "react",
+    "nodejs",
+    "pet-care",
+    "beginner-project"
+  ],
+  "author": "",
+  "license": "MIT"
+}
