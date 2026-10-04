@@ -5,7 +5,9 @@
  * even before starting the backend server!
  */
 
-const API_BASE = '/api';
+const API_BASE = import.meta.env.VITE_API_URL
+  ? `${import.meta.env.VITE_API_URL.replace(/\/$/, '')}/api`
+  : '/api';
 
 // Initial Mock dataset for standalone / demo fallback
 const localMockState = {
